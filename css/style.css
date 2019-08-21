@@ -1501,12 +1501,10 @@ h6 {
 
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  max-width: fit-content;
 }
 
 .portfolio-modal .modal-content {
-  padding: 100px 0;
   text-align: center;
 }
 
@@ -1516,7 +1514,7 @@ h6 {
 }
 
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -1536,15 +1534,15 @@ h6 {
 }
 
 .portfolio-modal .modal-content button {
-  cursor: pointer;
+  cursor: auto;
 }
 
 .portfolio-modal .close-modal {
   position: absolute;
   top: 25px;
   right: 25px;
-  width: 75px;
-  height: 75px;
+  width: 60px;
+  height: 60px;
   cursor: pointer;
   background-color: transparent;
 }
@@ -1575,3 +1573,28 @@ h6 {
   transform: rotate(90deg);
   background-color: #212529;
 }
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: #fed136;
+}
+
+
+#mapid { height: 180px; }
