@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  color: #444;
+  color: #495057;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -125,7 +125,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 85px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -136,7 +136,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 85px;
   padding: 10px 0;
 }
 
@@ -159,7 +159,7 @@ h6 {
 #header .logo img {
   padding-bottom: 0px;
   margin: 0px 0;
-  max-width: 120px;
+  max-width: 50%;
 }
 
 .main-pages {
@@ -336,7 +336,10 @@ h6 {
   display: block;
   position: relative;
   color: #004289;
-  padding: 10px 15px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
   transition: 0.3s;
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -422,7 +425,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow-y: auto;
-  left: -260px;
+  right: -260px;
   width: 260px;
   padding-top: 18px;
   background: rgba(19, 39, 57, 0.8);
@@ -433,6 +436,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  right: 0;
 }
 
 .mobile-nav a {
@@ -512,7 +516,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav {
-  left: 0;
+  right: 0;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
@@ -549,7 +553,7 @@ h6 {
  */
 
 .section-bg {
-  background: #eff3f7;
+  background: #fff;
 }
 
 /* About Us Section
@@ -719,7 +723,7 @@ h6 {
 }
 
 #why-us {
-  padding: 60px 0;
+  padding: 60px 0; 
   background: #004a99;
 }
 
@@ -1095,8 +1099,8 @@ h6 {
 }
 
 #clients .clients-wrap {
-  border-top: 1px solid #d6eaff;
-  border-left: 1px solid #d6eaff;
+  border-top: 1px solid #ffff;
+  border-left: 1px solid #ffff;
   margin-bottom: 30px;
 }
 
