@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>PuntosHot</title>
+  <title>NewBiz Bootstrap Template</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/log.png" rel="icon">
+  <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -46,17 +46,17 @@ f
       <div class="logo float-left">
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
-        <a href="index.html#intro" class="scrollto"><img src="img/logoModificado.png" alt="" class="img-fluid"></a>
+        <a href="#intro" class="scrollto"><img src="img/logoModificado.png" alt="" class="img-fluid"></a>
       </div>
 
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
-          <li><a href="index.html#about">Beneficios</a></li>
-          <li><a href="index.html#clients">Empresas Afiliadas</a></li>
-          <li><a href="membresia.html">Membresia</a></li>
-          <li><a href="info.html">Nosotros</a></li>
-          <li><a href="pymes.html">Pymes</a></li>
-          <li><a href="index.html#contact"><b>Contacto</b></a></li>
+          <li class="active"><a href="#intro">Inicio</a></li>
+          <li><a href="#about">Beneficios</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#portfolio">Empresas Afiliadas</a></li>
+          <li><a href="#team">Pymes</a></li>
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav><!-- .main-nav -->
       
@@ -77,7 +77,7 @@ f
         <h2>¡Descubre<br><span>por qué todo México</span><br>está ahorrando con PuntosHot!</h2>
         <div>
           <a href="#about" class="btn-get-started scrollto">!Saber Más!</a>
-          <a href="#clients" class="btn-services scrollto">Empresas Participantes</a>
+          <a href="#services" class="btn-services scrollto">Afiliarse</a>
         </div>
       </div>
 
@@ -90,11 +90,11 @@ f
       Beneficios Us Section
     ============================-->
     <section id="about">
-      <div class="container" style="padding-top: 5%;">
+      <div class="container">
 
         <header class="section-header">
           <h3>Beneficios</h3>
-            <p><b>¡Tus Descuentos ahora son mas grandes!</b></p>
+          <p>¡Tus Descuentos ahora son mas grandes!</p>
         </header>
 
         <div class="row about-container">
@@ -161,7 +161,7 @@ f
               <div class="card-body">
                 <h5 class="card-title">Compra</h5>
                 <p class="card-text">En las tiendas participantes siempre encontraras descuentos Premium y Beneficios.</p>
-                <a href="index.html#clients" class="readmore">Tiendas Participantes</a>
+                <a href="#" class="readmore">Ubicar Tiendas</a>
               </div>
             </div>
           </div>
@@ -172,7 +172,7 @@ f
               <div class="card-body">
                 <h5 class="card-title">Ahorra</h5>
                 <p class="card-text">Puedes ahorrar con las compras del día a día gracias a los descuentos y beneficios que hacemos para ti.</p>
-                <a href="index.html#about" class="readmore">Descubrir Beneficios </a>
+                <a href="#" class="readmore">Descubrir Beneficios </a>
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@ f
               <div class="card-body">
                 <h5 class="card-title">Tarjeta PuntosHot</h5>
                 <p class="card-text">Muestra tu tarjeta cada vez que compres para aprovechar tus beneficios .</p>
-                <a href="membresia.html" class="readmore">Afiliarse</a>
+                <a href="#" class="readmore">Afiliarse</a>
               </div>
             </div>
           </div>
@@ -193,39 +193,230 @@ f
       </div>
     </section>
 
- 
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Empresas Afiliadas</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todo</li>
+              <li data-filter=".filter-app">Resturantes & Bebidas</li>
+              <li data-filter=".filter-none">Viajes & Eventos</li>
+              <li data-filter=".filter-none">Moda</li>
+              <li data-filter=".filter-web">Bienestar Personal</li>
+              <li data-filter=".filter-none">Abarrotes</li>
+              <li data-filter=".filter-none">Tecnología</li>
+              <li data-filter=".filter-none">Eduacaión</li>
+              <li data-filter=".filter-none">Servicios Especializados</li>
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 1</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 3</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 2</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 2</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 2</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 3</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 1</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 3</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 1</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
 
     <!--==========================
       Clients Section
     ============================-->
     <section id="clients" class="section-bg">
 
-      <div class="container" style="padding-top: 5%;">
+      <div class="container">
 
         <div class="section-header">
-          <h3>Empresas Afiliadas</h3>
+          <h3>Our CLients</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
         </div>
 
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp text-center justify-content-center">
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
 
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <a href="xavier.html"> 
-                <img src="img/clients/cliente1.jpg" class="img-fluid" alt="">
-              </a>
+              <img src="img/clients/client-1.png" class="img-fluid" alt="">
             </div>
           </div>
           
           <div class="col-lg-3 col-md-4 col-xs-6">
             <div class="client-logo">
-              <a href="venecia.html"> 
-                <img src="img/clients/cliente2.webp" class="img-fluid" alt="">
-              </a>
+              <img src="img/clients/client-2.png" class="img-fluid" alt="">
             </div>
           </div>
         
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-8.png" class="img-fluid" alt="">
+            </div>
+          </div>
 
         </div>
+
       </div>
 
     </section>
